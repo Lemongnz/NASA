@@ -1,0 +1,29 @@
+.footerWrap {
+    height: 90px;
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #54b1ac 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+
+.leftSide img {
+    max-width: 60px;
+}
+
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}

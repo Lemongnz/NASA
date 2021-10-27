@@ -1,0 +1,42 @@
+.headerWrap {
+    height: 90px;
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #54b1ac 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.leftSide {
+    display: flex;
+    max-width: 250px;
+    min-width: 230px;
+    align-content: center;
+    justify-content: center;
+    margin: 8px;
+    text-align: center;
+}
+
+.rightSide {
+    display: flex;
+    min-width: 500px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.rightSide a {
+    max-height: 50px;
+    margin: 15px;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: center;
+    
+}
