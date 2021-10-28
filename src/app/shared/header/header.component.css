@@ -35,8 +35,8 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    font-weight: 700;
     cursor: pointer;
     justify-content: center;
-    
+    font-weight: 700;
+    font-size: 1.3em;    
 }

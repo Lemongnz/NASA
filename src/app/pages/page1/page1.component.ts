@@ -1,13 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { dataNasaI } from './page1.interface';
 
 
-export interface dataNasa {
-  title?: string;
-  copyright?: string;
-  explanation?: string;
-  url?: string;
-}
+
 
 @Component({
   selector: 'app-page1',
@@ -15,7 +11,7 @@ export interface dataNasa {
   styleUrls: ['./page1.component.css']
 })
 export class Page1Component implements OnInit {
-  data: dataNasa = {};
+  data: dataNasaI = {};
 
   constructor (
     private http: HttpClient
@@ -25,7 +21,7 @@ export class Page1Component implements OnInit {
       this.http.get('https://api.nasa.gov/planetary/apod?api_key=ivG8qDX0kgEev4MSSikGgQz07UpnhqpLi64aOAes').subscribe(
         (data: any) => {
           this.data = data;
-          
+          console.log(data)
         }
       )
 
