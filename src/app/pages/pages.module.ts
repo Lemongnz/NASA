@@ -4,7 +4,7 @@ import { Page1Component } from './page1/page1.component';
 import { MatDatepickerModule} from '@angular/material/datepicker';
 import { MatInputModule } from '@angular/material/input';
 import { MatNativeDateModule } from '@angular/material/core';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +15,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     CommonModule,
     MatDatepickerModule,
     MatInputModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    FormsModule
   ]
 })
 export class PagesModule { }

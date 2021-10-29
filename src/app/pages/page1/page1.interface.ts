@@ -4,4 +4,5 @@ export interface dataNasaI {
     explanation?: string;
     url?: string;
     date?: string;
+    media_type?: string;
 }
